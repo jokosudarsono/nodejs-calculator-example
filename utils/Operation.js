@@ -35,11 +35,11 @@ const fibonacci = function(params, totalCount = 0) {
   totalCount++
 
   if (params <= 1) {
-    return [0, 1];
+    return [0, 1]
   } else {
-    var results = fibonacci(params - 1, totalCount);
-    results.push(results[results.length - 1] + results[results.length - 2]);
-    return results;
+    var results = fibonacci(params - 1, totalCount)
+    results.push(results[results.length - 1] + results[results.length - 2])
+    return results
   }
 }
 
