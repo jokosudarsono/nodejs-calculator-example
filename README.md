@@ -17,3 +17,7 @@ This is example of nodejs command pattern with unit testing using mocha and chai
 #### Run Apps
 
 `$ npm start`
+
+#### Requires
+
+`- node version: ^10.0.0`
